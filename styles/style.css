@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Work+Sans:wght@500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: #a086e7;
+}
+nav ,.banner-container{
+   display: flex;
+   align-items: center;
+   min-height: 50px;
+   max-width: 1100px;
+   margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.logo-container img{
+    width:80px;
+    object-fit: cover;
+}
+.logo-container  p{
+    font-size: 2.1rem;
+    color:#fff;
+}
+.menu-container{
+    width: 50%;
+}
+.menu-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-container li{list-style: none;}
+.menu-container a{
+    text-decoration: none; 
+    color:#fff;
+    font-size: 1.2rem;
+}
+.menu-container  .login-btn{
+    background-color: #ee79cb;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    color:#000;
+   text-align: center;
+}
+
+/* banner styles */
+.banner-container{
+    background-color: rgb(224, 221, 221);
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.banner-content{
+    width: 50%;
+    text-align: center;
+ 
+}
+.banner-content h1{
+    background-image: linear-gradient(to bottom,#9373eb,#e261bb);
+    color:transparent;
+    -webkit-background-clip: text;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.banner-content p{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+.banner-icon{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    margin: 10px auto;
+}
+.banner-icon .fa-brands{
+    font-size: 2.4rem;
+
+}
+.banner-btn{
+    padding: 10px 20px;
+    background-color:transparent;
+    border-radius: 5px;
+    margin: 10px;
+}
+.banner-img{
+    width: 50%;
+    height: 100%;
+}
+.banner-img img{ width: 100%; border-radius: 10px;}

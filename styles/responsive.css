@@ -1,0 +1,14 @@
+@media screen  and (max-width:576px){
+    nav ,.menu-container ul ,.banner-container{
+        flex-direction: column;
+    }
+    .menu-container{
+        height: 190px;
+        width:100%;
+    }
+    .menu-container li{  margin-top: 20px;}
+    .menu-container  .login-btn{margin-bottom: 10px; width:100%;}
+    .banner-content ,.banner-img{width:100%;}
+} 
+
+
